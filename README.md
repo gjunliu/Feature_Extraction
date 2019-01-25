@@ -1,2 +1,2 @@
 # Feature_Extraction
-Different out to represent one APK file
+Different outputs to represent one APK file
