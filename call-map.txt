@@ -1,0 +1,1824 @@
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.<init>:(Landroid/content/Context;)V
+    Landroid/graphics/Matrix;.<init>:()V
+    Lcom/github/mikephil/charting/charts/Chart;.<init>:(Landroid/content/Context;)V
+    Lcom/github/mikephil/charting/utils/MPPointD;.getInstance:(DD)Lcom/github/mikephil/charting/utils/MPPointD;
+    Landroid/graphics/RectF;.<init>:()V
+
+Lcom/github/mikephil/charting/components/Description;.<init>:()V
+    Lcom/github/mikephil/charting/components/ComponentBase;.<init>:()V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTitle:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/widget/TextView;.setGravity:(I)V
+    Landroid/widget/TextView;.setTextColor:(I)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Ljava/lang/String;.toUpperCase:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/utils/FSize;.instantiate:()Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;
+    Lcom/github/mikephil/charting/utils/FSize;.<init>:(FF)V
+
+Lcom/github/mikephil/charting/components/AxisBase;.calculate:(FF)V
+    Ljava/lang/Math;.abs:(F)F
+
+Lcom/github/mikephil/charting/animation/ChartAnimator;.<init>:(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/data/BarDataSet;.calcStackSize:(Ljava/util/List;)V
+    Lcom/github/mikephil/charting/data/BarEntry;.getYVals:()[F
+    Ljava/util/ArrayList;.size:()I
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setYAxis:()V
+    Lcom/github/mikephil/charting/components/ComponentBase;.setXOffset:(F)V
+    Ltrilog/example/martin/myapplication/Controllers/LongLabelsFormater;.<init>:()V
+    Lcom/github/mikephil/charting/components/AxisBase;.setLabelCount:(IZ)V
+    Lcom/github/mikephil/charting/components/AxisBase;.setValueFormatter:(Lcom/github/mikephil/charting/formatter/IAxisValueFormatter;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.getAxis:(Lcom/github/mikephil/charting/components/YAxis$AxisDependency;)Lcom/github/mikephil/charting/components/YAxis;
+
+Ltrilog/example/martin/myapplication/Database/Database;.getSumData:(Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Landroid/database/Cursor?;.moveToNext:()Z
+    Landroid/database/Cursor?;.getString:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Landroid/database/Cursor?;.isAfterLast:()Z
+    Landroid/database/Cursor?;.getFloat:(I)F
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ltrilog/example/martin/myapplication/Objects/ChartRecord;.<init>:(Ljava/lang/String;FLtrilog/example/martin/myapplication/Objects/MyDate;Ljava/lang/String;)V
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.<init>:(Ljava/lang/String;)V
+    Landroid/database/Cursor?;.moveToFirst:()Z
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.initializeTooblar:()V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Landroid/support/v7/app/ActionBar?;.setDisplayShowHomeEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.getSupportActionBar:()Landroid/support/v7/app/ActionBar;
+    Landroid/support/v7/app/ActionBar?;.setDisplayHomeAsUpEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.setSupportActionBar:(Landroid/support/v7/widget/Toolbar;)V
+
+Ltrilog/example/martin/myapplication/Objects/AttributeData;.<init>:(Ljava/lang/String;FI)V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/data/ChartData;.calcMinMax:(Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;)V
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getYMax:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getAxisDependency:()Lcom/github/mikephil/charting/components/YAxis$AxisDependency;
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getYMin:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getXMax:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getYMax:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getAxisDependency:()Lcom/github/mikephil/charting/components/YAxis$AxisDependency;
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getXMax:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getXMin:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getXMin:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getYMin:()F
+
+Ltrilog/example/martin/myapplication/Database/Database;.getSportName:(J)Ljava/lang/String;
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Landroid/database/Cursor?;.getString:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Ljava/lang/String;.valueOf:(J)Ljava/lang/String;
+    Landroid/database/Cursor?;.moveToFirst:()Z
+
+Ltrilog/example/martin/myapplication/Objects/MyDate;.toStringChart:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+Ltrilog/example/martin/myapplication/Database/Database;.getDataLastWeek:(I)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Database/Database;.getData:(Ljava/lang/String;I)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I
+
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.setBorderColor:(I)V
+    Landroid/graphics/Paint;.setColor:(I)V
+
+Ltrilog/example/martin/myapplication/Sports/DeleteData;.onCreate:(Landroid/os/Bundle;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.<init>:(Landroid/content/Context;IF)V
+    Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Ltrilog/example/martin/myapplication/Database/Database;.getDataByDateRange:(ILjava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Landroid/content/Intent;.getIntExtra:(Ljava/lang/String;I)I
+    Ltrilog/example/martin/myapplication/Sports/DeleteData;.createAllBoxes:()V
+    Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+    Landroid/content/ContextWrapper;.getBaseContext:()Landroid/content/Context;
+    Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String;
+    Landroid/app/Activity;.getIntent:()Landroid/content/Intent;
+    Landroid/support/v7/app/AppCompatActivity;.setContentView:(I)V
+    Ltrilog/example/martin/myapplication/Sports/DeleteData;.initializeToolbar:()V
+    Ltrilog/example/martin/myapplication/Database/Database;.getSport:(J)Ltrilog/example/martin/myapplication/Objects/Sport;
+
+Ltrilog/example/martin/myapplication/Sports/DetailSport;.onCreate:(Landroid/os/Bundle;)V
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/lang/Boolean;.valueOf:(Z)Ljava/lang/Boolean;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.<init>:(Landroid/content/Context;IF)V
+    Ltrilog/example/martin/myapplication/Sports/DetailSport;.createAllBoxes:()V
+    Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V
+    Ltrilog/example/martin/myapplication/Sports/DetailSport;.initializeToolbar:()V
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Ljava/lang/Boolean;.booleanValue:()Z
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Ljava/util/ArrayList;.size:()I
+    Landroid/content/Intent;.getIntExtra:(Ljava/lang/String;I)I
+    Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+    Landroid/content/ContextWrapper;.getBaseContext:()Landroid/content/Context;
+    Landroid/content/Intent;.getBooleanExtra:(Ljava/lang/String;Z)Z
+    Landroid/app/Activity;.getIntent:()Landroid/content/Intent;
+    Landroid/support/v7/app/AppCompatActivity;.setContentView:(I)V
+    Ltrilog/example/martin/myapplication/Database/Database;.getSport:(J)Ltrilog/example/martin/myapplication/Objects/Sport;
+    Ltrilog/example/martin/myapplication/Sports/DetailSport;.initiliazeRecordsofSports:(Z)V
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.<init>:(Landroid/content/Context;IF)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Objects/MyDate;.toStringEng:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.createCompareChart:(Landroid/widget/LinearLayout;I)V
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.addHeader:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.addLinearChart:(Landroid/widget/LinearLayout;I)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Ltrilog/example/martin/myapplication/MainActivity;.setFadeInAnimation:(Landroid/widget/ImageView;II)V
+    Landroid/view/animation/AnimationUtils;.loadAnimation:(Landroid/content/Context;I)Landroid/view/animation/Animation;
+    Landroid/view/animation/Animation;.setStartOffset:(J)V
+    Landroid/view/View;.startAnimation:(Landroid/view/animation/Animation;)V
+    Landroid/view/animation/Animation;.setDuration:(J)V
+
+Ltrilog/example/martin/myapplication/Database/Database;.getDataByDate:(ILjava/lang/String;)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Database/Database;.getData:(Ljava/lang/String;I)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/data/ChartData;.getFirstRight:(Ljava/util/List;)Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;
+    Ljava/util/Iterator?;.hasNext:()Z
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getAxisDependency:()Lcom/github/mikephil/charting/components/YAxis$AxisDependency;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getAxisDependency:()Lcom/github/mikephil/charting/components/YAxis$AxisDependency;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/components/Legend;.getMaximumEntryHeight:(Landroid/graphics/Paint;)F
+    Lcom/github/mikephil/charting/utils/Utils;.calcTextHeight:(Landroid/graphics/Paint;Ljava/lang/String;)I
+
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.setBorderWidth:(F)V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Landroid/graphics/Paint;.setStrokeWidth:(F)V
+
+Lcom/github/mikephil/charting/charts/Chart$1;.<init>:(Lcom/github/mikephil/charting/charts/Chart;)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setXAxis:()V
+    Lcom/github/mikephil/charting/charts/Chart;.getXAxis:()Lcom/github/mikephil/charting/components/XAxis;
+    Lcom/github/mikephil/charting/components/AxisBase;.setGranularity:(F)V
+    Lcom/github/mikephil/charting/components/XAxis;.setAvoidFirstLastClipping:(Z)V
+    Lcom/github/mikephil/charting/components/XAxis;.setPosition:(Lcom/github/mikephil/charting/components/XAxis$XAxisPosition;)V
+
+Lcom/github/mikephil/charting/components/ComponentBase;.setXOffset:(F)V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+
+Lcom/github/mikephil/charting/components/AxisBase;.getLongestLabel:()Ljava/lang/String;
+    Ljava/lang/String;.length:()I
+    Lcom/github/mikephil/charting/components/AxisBase;.getFormattedLabel:(I)Ljava/lang/String;
+
+Lcom/github/mikephil/charting/utils/Utils;.getLineSpacing:(Landroid/graphics/Paint;)F
+    Lcom/github/mikephil/charting/utils/Utils;.getLineSpacing:(Landroid/graphics/Paint;Landroid/graphics/Paint$FontMetrics;)F
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.addHeader:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTitle:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeaderBoxParams:(Landroid/widget/RelativeLayout;)V
+    Landroid/widget/RelativeLayout;.<init>:(Landroid/content/Context;)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+
+Lcom/github/mikephil/charting/utils/Utils;.getSizeOfRotatedRectangleByDegrees:(FFF)Lcom/github/mikephil/charting/utils/FSize;
+    Lcom/github/mikephil/charting/utils/Utils;.getSizeOfRotatedRectangleByRadians:(FFF)Lcom/github/mikephil/charting/utils/FSize;
+
+Ltrilog/example/martin/myapplication/Sports/AddData;.initializeToolbar:()V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Landroid/support/v7/app/ActionBar?;.setDisplayShowHomeEnabled:(Z)V
+    Landroid/support/v7/app/ActionBar?;.setTitle:(Ljava/lang/CharSequence;)V
+    Landroid/support/v7/app/AppCompatActivity;.getSupportActionBar:()Landroid/support/v7/app/ActionBar;
+    Landroid/support/v7/app/ActionBar?;.setDisplayShowTitleEnabled:(Z)V
+    Landroid/support/v7/app/ActionBar?;.setDisplayHomeAsUpEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.setSupportActionBar:(Landroid/support/v7/widget/Toolbar;)V
+
+Lcom/github/mikephil/charting/renderer/LegendRenderer;.<init>:(Lcom/github/mikephil/charting/utils/ViewPortHandler;Lcom/github/mikephil/charting/components/Legend;)V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Landroid/graphics/Paint;.setStyle:(Landroid/graphics/Paint$Style;)V
+    Landroid/graphics/Paint;.setTextSize:(F)V
+    Landroid/graphics/Paint;.setTextAlign:(Landroid/graphics/Paint$Align;)V
+    Landroid/graphics/Paint$FontMetrics;.<init>:()V
+    Landroid/graphics/Path;.<init>:()V
+    Landroid/graphics/Paint;.<init>:(I)V
+    Lcom/github/mikephil/charting/renderer/Renderer;.<init>:(Lcom/github/mikephil/charting/utils/ViewPortHandler;)V
+    Ljava/util/ArrayList;.<init>:(I)V
+
+Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.setEntries:(Ljava/util/ArrayList;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.procesData:()V
+
+Ltrilog/example/martin/myapplication/Sports/DetailSport;.createAllBoxes:()V
+    Ltrilog/example/martin/myapplication/Sports/DetailSport;.makeDetails:(Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;)V
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ljava/util/Iterator?;.hasNext:()Z
+
+Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentWidth:()F
+    Landroid/graphics/RectF;.width:()F
+
+Lcom/github/mikephil/charting/components/Legend;.calculateDimensions:(Landroid/graphics/Paint;Lcom/github/mikephil/charting/utils/ViewPortHandler;)V
+    Ljava/lang/Boolean;.valueOf:(Z)Ljava/lang/Boolean;
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Ljava/lang/Float;.isNaN:(F)Z
+    Lcom/github/mikephil/charting/components/Legend;.getMaximumEntryHeight:(Landroid/graphics/Paint;)F
+    Lcom/github/mikephil/charting/utils/Utils;.getLineSpacing:(Landroid/graphics/Paint;)F
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentWidth:()F
+    Lcom/github/mikephil/charting/utils/Utils;.getLineHeight:(Landroid/graphics/Paint;)F
+    Ljava/lang/Enum;.ordinal:()I
+    Ljava/util/ArrayList;.size:()I
+    Ljava/lang/Math;.max:(FF)F
+    Lcom/github/mikephil/charting/utils/FSize;.getInstance:(FF)Lcom/github/mikephil/charting/utils/FSize;
+    Ljava/util/ArrayList;.set:(ILjava/lang/Object;)Ljava/lang/Object;
+    Lcom/github/mikephil/charting/utils/Utils;.calcTextSize:(Landroid/graphics/Paint;Ljava/lang/String;)Lcom/github/mikephil/charting/utils/FSize;
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ljava/util/ArrayList;.clear:()V
+    Lcom/github/mikephil/charting/components/Legend;.getMaximumEntryWidth:(Landroid/graphics/Paint;)F
+    Lcom/github/mikephil/charting/utils/Utils;.calcTextWidth:(Landroid/graphics/Paint;Ljava/lang/String;)I
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.prepareValuePxMatrix:()V
+    Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(F)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Lcom/github/mikephil/charting/utils/Transformer;.prepareMatrixValuePx:(FFFF)V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setMultipleEntries:(Ljava/util/ArrayList;I)V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ltrilog/example/martin/myapplication/Database/Database;.getSportName:(J)Ljava/lang/String;
+    Lcom/github/mikephil/charting/data/LineDataSet;.setCircleColorHole:(I)V
+    Lcom/github/mikephil/charting/data/BaseDataSet;.setValueFormatter:(Lcom/github/mikephil/charting/formatter/IValueFormatter;)V
+    Lcom/github/mikephil/charting/data/BaseDataSet;.setColor:(I)V
+    Lcom/github/mikephil/charting/data/LineDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/data/BarLineScatterCandleBubbleDataSet;.setHighLightColor:(I)V
+    Lcom/github/mikephil/charting/data/ChartData;.addDataSet:(Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;)V
+    Ljava/util/ArrayList;.size:()I
+    Ltrilog/example/martin/myapplication/Controllers/LongLabelsFormater;.<init>:()V
+    Lcom/github/mikephil/charting/data/LineData;.<init>:()V
+    Lcom/github/mikephil/charting/data/LineDataSet;.setCircleColor:(I)V
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/data/LineRadarDataSet;.setFillAlpha:(I)V
+    Lcom/github/mikephil/charting/data/LineRadarDataSet;.setFillColor:(I)V
+    Lcom/github/mikephil/charting/data/BaseDataSet;.setDrawValues:(Z)V
+
+Lcom/github/mikephil/charting/data/Entry;.<init>:(FF)V
+    Lcom/github/mikephil/charting/data/BaseEntry;.<init>:(F)V
+
+Lcom/github/mikephil/charting/data/BaseDataSet;.setColor:(I)V
+    Lcom/github/mikephil/charting/data/BaseDataSet;.resetColors:()V
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer;
+
+Ltrilog/example/martin/myapplication/Database/Database;.getAttributes:(I)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Landroid/database/Cursor?;.moveToNext:()Z
+    Landroid/database/Cursor?;.getInt:(I)I
+    Landroid/database/Cursor?;.getString:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Ljava/lang/String;.valueOf:(I)Ljava/lang/String;
+    Landroid/database/Cursor?;.isAfterLast:()Z
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ltrilog/example/martin/myapplication/Objects/Attribute;.<init>:(Ljava/lang/String;ILjava/lang/String;)V
+    Landroid/database/Cursor?;.moveToFirst:()Z
+
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.calculateOffsets:()V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I
+    Ljava/lang/StringBuilder;.<init>:()V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.prepareValuePxMatrix:()V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.getContentRect:()Landroid/graphics/RectF;
+    Lcom/github/mikephil/charting/renderer/AxisRenderer;.getPaintAxisLabels:()Landroid/graphics/Paint;
+    Ljava/lang/StringBuilder;.append:(F)Ljava/lang/StringBuilder;
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.calculateLegendOffsets:(Landroid/graphics/RectF;)V
+    Lcom/github/mikephil/charting/components/YAxis;.needsOffset:()Z
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.prepareOffsetMatrix:()V
+    Lcom/github/mikephil/charting/charts/Chart;.getExtraLeftOffset:()F
+    Ljava/lang/Math;.max:(FF)F
+    Lcom/github/mikephil/charting/components/ComponentBase;.getYOffset:()F
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.restrainViewPort:(FFFF)V
+    Lcom/github/mikephil/charting/charts/Chart;.getExtraBottomOffset:()F
+    Landroid/graphics/RectF;.toString:()Ljava/lang/String;
+    Lcom/github/mikephil/charting/components/YAxis;.getRequiredWidthSpace:(Landroid/graphics/Paint;)F
+    Lcom/github/mikephil/charting/components/ComponentBase;.isEnabled:()Z
+    Lcom/github/mikephil/charting/components/XAxis;.getPosition:()Lcom/github/mikephil/charting/components/XAxis$XAxisPosition;
+    Lcom/github/mikephil/charting/charts/Chart;.getExtraTopOffset:()F
+    Lcom/github/mikephil/charting/charts/Chart;.getExtraRightOffset:()F
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Lcom/github/mikephil/charting/components/AxisBase;.isDrawLabelsEnabled:()Z
+
+Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.invalidate:(Landroid/widget/LinearLayout;)V
+    Lcom/github/mikephil/charting/components/Description;.<init>:()V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.setBorderColor:(I)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.setBorderWidth:(F)V
+    Landroid/graphics/Paint;.setColor:(I)V
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.setLegend:()V
+    Lcom/github/mikephil/charting/components/Description;.setText:(Ljava/lang/String;)V
+    Landroid/view/View;.getLayoutParams:()Landroid/view/ViewGroup$LayoutParams;
+    Ljava/util/ArrayList;.size:()I
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.setDrawGridBackground:(Z)V
+    Lcom/github/mikephil/charting/charts/Chart;.setData:(Lcom/github/mikephil/charting/data/ChartData;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.getAxisLeft:()Lcom/github/mikephil/charting/components/YAxis;
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.setDrawBorders:(Z)V
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.setYAxis:()V
+    Lcom/github/mikephil/charting/charts/BarChart;.getBarData:()Lcom/github/mikephil/charting/data/BarData;
+    Lcom/github/mikephil/charting/components/ComponentBase;.setEnabled:(Z)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/data/BarData;.setBarWidth:(F)V
+    Lcom/github/mikephil/charting/charts/Chart;.getXAxis:()Lcom/github/mikephil/charting/components/XAxis;
+    Lcom/github/mikephil/charting/components/AxisBase;.setAxisMinimum:(F)V
+    Lcom/github/mikephil/charting/charts/Chart;.setDescription:(Lcom/github/mikephil/charting/components/Description;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.getPaint:(I)Landroid/graphics/Paint;
+    Lcom/github/mikephil/charting/charts/Chart;.setTouchEnabled:(Z)V
+    Landroid/view/View;.invalidate:()V
+    Lcom/github/mikephil/charting/components/AxisBase;.setAxisMinValue:(F)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.getAxisRight:()Lcom/github/mikephil/charting/components/YAxis;
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Lcom/github/mikephil/charting/charts/BarChart;.groupBars:(FFF)V
+    Lcom/github/mikephil/charting/components/AxisBase;.setAxisMaximum:(F)V
+
+Lcom/github/mikephil/charting/renderer/XAxisRenderer;.computeAxisValues:(FF)V
+    Lcom/github/mikephil/charting/renderer/AxisRenderer;.computeAxisValues:(FF)V
+    Lcom/github/mikephil/charting/renderer/XAxisRenderer;.computeSize:()V
+
+Ltrilog/example/martin/myapplication/Sports/DetailSport;.makeContent:(Ltrilog/example/martin/myapplication/Objects/SportData;)Landroid/widget/LinearLayout;
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDistance:()F
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(F)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDuration:()Ltrilog/example/martin/myapplication/Objects/MyTime;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ltrilog/example/martin/myapplication/Objects/Sport;.getUnit:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Database/Database;.getAttributeUnit:(I)Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getName:()Ljava/lang/String;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getAttributesData:()Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setLinearLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getValue:()F
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getId:()I
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.createChartSection:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.addBarChart:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.addHeader:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Lcom/github/mikephil/charting/utils/Utils;.calcTextHeight:(Landroid/graphics/Paint;Ljava/lang/String;)I
+    Ljava/lang/String;.length:()I
+    Landroid/graphics/Paint;.getTextBounds:(Ljava/lang/String;IILandroid/graphics/Rect;)V
+    Landroid/graphics/Rect;.set:(IIII)V
+    Landroid/graphics/Rect;.height:()I
+
+Lcom/github/mikephil/charting/data/ChartData;.getDataSetCount:()I
+    Ljava/util/ArrayList;.size:()I
+
+Lcom/github/mikephil/charting/utils/FSize;.recycleInstance:(Lcom/github/mikephil/charting/utils/FSize;)V
+    Lcom/github/mikephil/charting/utils/ObjectPool;.recycle:(Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;)V
+
+Ltrilog/example/martin/myapplication/Sports/DeleteData;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setBoxShadowParams:(Landroid/widget/LinearLayout;)V
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.setFullWidth:(Landroid/view/View;)V
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/widget/LinearLayout$LayoutParams;.<init>:(II)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setBoxShadowParams:(Landroid/widget/LinearLayout;)V
+
+Ltrilog/example/martin/myapplication/Sports/AddData$2;.<init>:(Ltrilog/example/martin/myapplication/Sports/AddData;)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/ListAdapter/AttributeAdapter;.<init>:(Landroid/app/Activity;Ljava/util/ArrayList;Ltrilog/example/martin/myapplication/ListAdapter/ActivityAttributeListener;)V
+    Landroid/widget/ArrayAdapter;.<init>:(Landroid/content/Context;ILjava/util/List;)V
+
+Ltrilog/example/martin/myapplication/Sports/DetailSport;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setBoxShadowParams:(Landroid/widget/LinearLayout;)V
+
+Lcom/github/mikephil/charting/data/BarData;.getGroupWidth:(FF)F
+    Ljava/util/ArrayList;.size:()I
+
+Lcom/github/mikephil/charting/data/DataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/data/BaseDataSet;.<init>:(Ljava/lang/String;)V
+    Ljava/util/ArrayList;.<init>:()V
+    Lcom/github/mikephil/charting/data/DataSet;.calcMinMax:()V
+
+Lcom/github/mikephil/charting/components/Legend;.setEntries:(Ljava/util/List;)V
+    Ljava/util/ArrayList;.toArray:([Ljava/lang/Object;)[Ljava/lang/Object;
+    Ljava/util/ArrayList;.size:()I
+
+Lcom/github/mikephil/charting/renderer/XAxisRenderer;.computeSize:()V
+    Lcom/github/mikephil/charting/components/AxisBase;.getLongestLabel:()Ljava/lang/String;
+    Lcom/github/mikephil/charting/utils/Utils;.getSizeOfRotatedRectangleByDegrees:(FFF)Lcom/github/mikephil/charting/utils/FSize;
+    Lcom/github/mikephil/charting/utils/Utils;.calcTextHeight:(Landroid/graphics/Paint;Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/utils/FSize;.recycleInstance:(Lcom/github/mikephil/charting/utils/FSize;)V
+    Lcom/github/mikephil/charting/components/ComponentBase;.getTypeface:()Landroid/graphics/Typeface;
+    Landroid/graphics/Paint;.setTextSize:(F)V
+    Landroid/graphics/Paint;.setTypeface:(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    Lcom/github/mikephil/charting/components/XAxis;.getLabelRotationAngle:()F
+    Lcom/github/mikephil/charting/utils/Utils;.calcTextSize:(Landroid/graphics/Paint;Ljava/lang/String;)Lcom/github/mikephil/charting/utils/FSize;
+    Lcom/github/mikephil/charting/components/ComponentBase;.getTextSize:()F
+    Ljava/lang/Math;.round:(F)I
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/os/BaseBundle;.get:(Ljava/lang/String;)Ljava/lang/Object;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.initializeTooblar:()V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.<init>:(Landroid/content/Context;IF)V
+    Ljava/lang/Object;.toString:()Ljava/lang/String;
+    Ljava/lang/String;.toString:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.createChartSection:(Landroid/widget/LinearLayout;)V
+    Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/os/Handler;.toString:()Ljava/lang/String;
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Ltrilog/example/martin/myapplication/Objects/MyTime;.toString:()Ljava/lang/String;
+    Landroid/content/Intent;.getExtras:()Landroid/os/Bundle;
+    Landroid/os/Bundle;.toString:()Ljava/lang/String;
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toString:()Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteDatabase;.toString:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+    Landroid/view/View;.toString:()Ljava/lang/String;
+    Landroid/content/Intent;.toString:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.createAllCompareBoxes:(Landroid/widget/LinearLayout;)V
+    Ljava/lang/Integer;.toString:()Ljava/lang/String;
+    Landroid/app/Activity;.getIntent:()Landroid/content/Intent;
+    Ljava/lang/Boolean;.toString:()Ljava/lang/String;
+    Landroid/support/v7/app/AppCompatActivity;.setContentView:(I)V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Landroid/content/ContextWrapper;.getApplicationContext:()Landroid/content/Context;
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.initializeTooblar:()V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Landroid/support/v7/app/ActionBar?;.setDisplayHomeAsUpEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.setSupportActionBar:(Landroid/support/v7/widget/Toolbar;)V
+    Landroid/support/v7/app/AppCompatActivity;.getSupportActionBar:()Landroid/support/v7/app/ActionBar;
+
+Lcom/github/mikephil/charting/components/AxisBase;.getFormattedLabel:(I)Ljava/lang/String;
+    Lcom/github/mikephil/charting/formatter/IAxisValueFormatter?;.getFormattedValue:(FLcom/github/mikephil/charting/components/AxisBase;)Ljava/lang/String;
+    Lcom/github/mikephil/charting/components/AxisBase;.getValueFormatter:()Lcom/github/mikephil/charting/formatter/IAxisValueFormatter;
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.convertToKiloemetrs:(DLjava/lang/String;)D
+    Ljava/lang/String;.equals:(Ljava/lang/Object;)Z
+
+Ltrilog/example/martin/myapplication/Sports/DeleteData;.addDeleteIcon:(Landroid/widget/RelativeLayout;Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;)V
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Landroid/widget/RelativeLayout$LayoutParams;.<init>:(II)V
+    Landroid/view/ViewGroup$MarginLayoutParams;.setMargins:(IIII)V
+    Landroid/view/View;.getLayoutParams:()Landroid/view/ViewGroup$LayoutParams;
+    Ltrilog/example/martin/myapplication/Sports/DeleteData$1;.<init>:(Ltrilog/example/martin/myapplication/Sports/DeleteData;Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;)V
+    Landroid/content/res/Resources;.getDrawable:(I)Landroid/graphics/drawable/Drawable;
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/widget/RelativeLayout$LayoutParams;.addRule:(I)V
+    Landroid/widget/ImageView;.setImageDrawable:(Landroid/graphics/drawable/Drawable;)V
+    Landroid/widget/ImageView;.<init>:(Landroid/content/Context;)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Landroid/view/View;.setOnClickListener:(Landroid/view/View$OnClickListener;)V
+
+Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.setLegend:()V
+    Lcom/github/mikephil/charting/components/ComponentBase;.setTextColor:(I)V
+    Lcom/github/mikephil/charting/charts/Chart;.getLegend:()Lcom/github/mikephil/charting/components/Legend;
+    Lcom/github/mikephil/charting/components/Legend;.setPosition:(Lcom/github/mikephil/charting/components/Legend$LegendPosition;)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/components/Legend;.setWordWrapEnabled:(Z)V
+
+Lcom/github/mikephil/charting/data/BarLineScatterCandleBubbleDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Landroid/graphics/Color;.rgb:(III)I
+    Lcom/github/mikephil/charting/data/DataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+
+Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentHeight:()F
+    Landroid/graphics/RectF;.height:()F
+
+Lcom/github/mikephil/charting/components/ComponentBase;.<init>:()V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/utils/ObjectPool;.refillPool:(F)V
+    Lcom/github/mikephil/charting/utils/FSize;.instantiate:()Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;
+
+Lcom/github/mikephil/charting/charts/Chart;.setupDefaultFormatter:(FF)V
+    Lcom/github/mikephil/charting/data/ChartData;.getEntryCount:()I
+    Ljava/lang/Math;.max:(FF)F
+    Lcom/github/mikephil/charting/formatter/DefaultValueFormatter;.setup:(I)V
+    Lcom/github/mikephil/charting/utils/Utils;.getDecimals:(F)I
+    Ljava/lang/Math;.abs:(F)F
+
+Lcom/github/mikephil/charting/data/BaseDataSet;.resetColors:()V
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/util/ArrayList;.clear:()V
+
+Ltrilog/example/martin/myapplication/Sports/DetailSport;.initializeToolbar:()V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Landroid/support/v7/app/ActionBar?;.setDisplayShowHomeEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.getSupportActionBar:()Landroid/support/v7/app/ActionBar;
+    Landroid/support/v7/app/ActionBar?;.setDisplayHomeAsUpEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.setSupportActionBar:(Landroid/support/v7/widget/Toolbar;)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setRelativeLayoutParams:(Landroid/widget/RelativeLayout;Ljava/lang/String;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeaderBoxParams:(Landroid/widget/RelativeLayout;Ljava/lang/String;)V
+
+Lcom/github/mikephil/charting/data/LineDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Ljava/util/ArrayList;.<init>:()V
+    Lcom/github/mikephil/charting/data/LineRadarDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Landroid/graphics/Color;.rgb:(III)I
+    Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer;
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ljava/util/ArrayList;.clear:()V
+    Lcom/github/mikephil/charting/formatter/DefaultFillFormatter;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.prepareXAxis:(Ljava/util/ArrayList;)[Ljava/lang/String;
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/Math;.max:(II)I
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ljava/util/ArrayList;.size:()I
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/charts/BarChart;.calcMinMax:()V
+    Lcom/github/mikephil/charting/components/AxisBase;.calculate:(FF)V
+    Lcom/github/mikephil/charting/data/BarData;.getBarWidth:()F
+    Lcom/github/mikephil/charting/data/ChartData;.getXMax:()F
+    Lcom/github/mikephil/charting/components/YAxis;.calculate:(FF)V
+    Lcom/github/mikephil/charting/data/ChartData;.getYMax:(Lcom/github/mikephil/charting/components/YAxis$AxisDependency;)F
+    Lcom/github/mikephil/charting/data/ChartData;.getYMin:(Lcom/github/mikephil/charting/components/YAxis$AxisDependency;)F
+    Lcom/github/mikephil/charting/data/ChartData;.getXMin:()F
+
+Lcom/github/mikephil/charting/utils/Utils;.nextUp:(D)D
+    Ljava/lang/Double;.doubleToRawLongBits:(D)J
+    Ljava/lang/Double;.longBitsToDouble:(J)D
+
+Lcom/github/mikephil/charting/data/ChartData;.getEntryCount:()I
+    Ljava/util/Iterator?;.hasNext:()Z
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getEntryCount:()I
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getEntryCount:()I
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/data/DataSet;.calcMinMaxY:(Lcom/github/mikephil/charting/data/Entry;)V
+    Lcom/github/mikephil/charting/data/BaseEntry;.getY:()F
+
+Ltrilog/example/martin/myapplication/Objects/MyDate;.<init>:()V
+    Ljava/util/Calendar;.getInstance:()Ljava/util/Calendar;
+    Ljava/lang/Object;.<init>:()V
+    Ljava/util/Calendar;.get:(I)I
+
+Lcom/github/mikephil/charting/data/BarDataSet;.calcEntryCountIncludingStacks:(Ljava/util/List;)V
+    Lcom/github/mikephil/charting/data/BarEntry;.getYVals:()[F
+    Ljava/util/ArrayList;.size:()I
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Ltrilog/example/martin/myapplication/Sports/AddData;.initializeDuration:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createEditTex:(Ljava/lang/String;Z)Landroid/widget/EditText;
+    Ltrilog/example/martin/myapplication/Sports/AddData$1;.<init>:(Ltrilog/example/martin/myapplication/Sports/AddData;)V
+    Ltrilog/example/martin/myapplication/Sports/AddData;.createBasicAttributeItem:(Landroid/widget/LinearLayout;Landroid/widget/TextView;Landroid/widget/EditText;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createItemText:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/view/View;.setOnClickListener:(Landroid/view/View$OnClickListener;)V
+
+Lcom/github/mikephil/charting/utils/MPPointD;.recycleInstance:(Lcom/github/mikephil/charting/utils/MPPointD;)V
+    Lcom/github/mikephil/charting/utils/ObjectPool;.recycle:(Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;)V
+
+Lcom/github/mikephil/charting/utils/Utils;.getLineHeight:(Landroid/graphics/Paint;)F
+    Lcom/github/mikephil/charting/utils/Utils;.getLineHeight:(Landroid/graphics/Paint;Landroid/graphics/Paint$FontMetrics;)F
+
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.calculateLegendOffsets:(Landroid/graphics/RectF;)V
+    Lcom/github/mikephil/charting/components/Legend;.getOrientation:()Lcom/github/mikephil/charting/components/Legend$LegendOrientation;
+    Ljava/lang/Math;.min:(FF)F
+    Lcom/github/mikephil/charting/components/ComponentBase;.getXOffset:()F
+    Lcom/github/mikephil/charting/components/Legend;.getMaxSizePercent:()F
+    Lcom/github/mikephil/charting/components/Legend;.getVerticalAlignment:()Lcom/github/mikephil/charting/components/Legend$LegendVerticalAlignment;
+    Ljava/lang/Enum;.ordinal:()I
+    Lcom/github/mikephil/charting/components/ComponentBase;.getYOffset:()F
+    Lcom/github/mikephil/charting/components/Legend;.getHorizontalAlignment:()Lcom/github/mikephil/charting/components/Legend$LegendHorizontalAlignment;
+    Lcom/github/mikephil/charting/charts/Chart;.getXAxis:()Lcom/github/mikephil/charting/components/XAxis;
+    Lcom/github/mikephil/charting/components/ComponentBase;.isEnabled:()Z
+    Lcom/github/mikephil/charting/components/Legend;.isDrawInsideEnabled:()Z
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.getChartHeight:()F
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.getChartWidth:()F
+    Lcom/github/mikephil/charting/components/AxisBase;.isDrawLabelsEnabled:()Z
+
+Ltrilog/example/martin/myapplication/Sports/AddData;.initializeDistance:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Objects/Sport;.getUnit:()Ljava/lang/String;
+    Landroid/widget/TextView;.setFilters:([Landroid/text/InputFilter;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createEditTex:(Ljava/lang/String;Z)Landroid/widget/EditText;
+    Ltrilog/example/martin/myapplication/Sports/AddData;.createBasicAttributeItem:(Landroid/widget/LinearLayout;Landroid/widget/TextView;Landroid/widget/EditText;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createItemText:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/text/InputFilter$LengthFilter;.<init>:(I)V
+    Ltrilog/example/martin/myapplication/Database/Database;.getSport:(J)Ltrilog/example/martin/myapplication/Objects/Sport;
+    Landroid/widget/TextView;.setInputType:(I)V
+
+Ltrilog/example/martin/myapplication/Sports/AddData;.onCreate:(Landroid/os/Bundle;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.<init>:(Landroid/content/Context;IF)V
+    Ltrilog/example/martin/myapplication/Sports/AddData;.initializeToolbar:()V
+    Ltrilog/example/martin/myapplication/Database/Database;.getAttributes:(I)Ljava/util/ArrayList;
+    Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Ltrilog/example/martin/myapplication/Sports/AddData;.initializeDuration:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Sports/AddData;.initializeDistance:(Landroid/widget/LinearLayout;)V
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Ltrilog/example/martin/myapplication/Sports/AddData;.addAtributes:(Landroid/widget/LinearLayout;)V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Ltrilog/example/martin/myapplication/Sports/AddData;.initializeDate:(Landroid/widget/LinearLayout;)V
+    Landroid/content/Intent;.getIntExtra:(Ljava/lang/String;I)I
+    Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+    Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String;
+    Landroid/app/Activity;.getIntent:()Landroid/content/Intent;
+    Landroid/support/v7/app/AppCompatActivity;.setContentView:(I)V
+    Landroid/content/ContextWrapper;.getApplicationContext:()Landroid/content/Context;
+
+Lcom/github/mikephil/charting/components/YAxis;.needsOffset:()Z
+    Lcom/github/mikephil/charting/components/ComponentBase;.isEnabled:()Z
+    Lcom/github/mikephil/charting/components/YAxis;.getLabelPosition:()Lcom/github/mikephil/charting/components/YAxis$YAxisLabelPosition;
+    Lcom/github/mikephil/charting/components/AxisBase;.isDrawLabelsEnabled:()Z
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.onCreate:(Landroid/os/Bundle;)V
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Landroid/os/BaseBundle;.get:(Ljava/lang/String;)Ljava/lang/Object;
+    Ljava/lang/Integer;.intValue:()I
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.<init>:(Landroid/content/Context;IF)V
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.createCompareChart:(Landroid/widget/LinearLayout;I)V
+    Ljava/lang/Object;.toString:()Ljava/lang/String;
+    Ljava/lang/String;.toString:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.initializeTooblar:()V
+    Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/os/Handler;.toString:()Ljava/lang/String;
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Ltrilog/example/martin/myapplication/Objects/MyTime;.toString:()Ljava/lang/String;
+    Landroid/content/Intent;.getExtras:()Landroid/os/Bundle;
+    Landroid/os/Bundle;.toString:()Ljava/lang/String;
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toString:()Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteDatabase;.toString:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.setDiferentDates:()V
+    Landroid/view/View;.toString:()Ljava/lang/String;
+    Landroid/content/Intent;.toString:()Ljava/lang/String;
+    Ljava/lang/Integer;.toString:()Ljava/lang/String;
+    Landroid/app/Activity;.getIntent:()Landroid/content/Intent;
+    Ljava/lang/Boolean;.toString:()Ljava/lang/String;
+    Landroid/support/v7/app/AppCompatActivity;.setContentView:(I)V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Landroid/content/ContextWrapper;.getApplicationContext:()Landroid/content/Context;
+
+Ltrilog/example/martin/myapplication/Sports/DetailSport;.makeDetails:(Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;)V
+    Ltrilog/example/martin/myapplication/Sports/DetailSport;.makeContent:(Ltrilog/example/martin/myapplication/Objects/SportData;)Landroid/widget/LinearLayout;
+    Ltrilog/example/martin/myapplication/Sports/DetailSport;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Sports/DetailSport;.makeHeader:(Ltrilog/example/martin/myapplication/Objects/SportData;)Landroid/widget/RelativeLayout;
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Lcom/github/mikephil/charting/charts/BarChart;.<init>:(Landroid/content/Context;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.<init>:(Landroid/content/Context;)V
+
+Ltrilog/example/martin/myapplication/Objects/MyTime;.toString:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ljava/lang/String;.length:()I
+    Ljava/lang/String;.valueOf:(J)Ljava/lang/String;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/data/LineRadarDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Landroid/graphics/Color;.rgb:(III)I
+    Lcom/github/mikephil/charting/data/LineScatterCandleRadarDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setAllRecords:()Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ljava/lang/Integer;.intValue:()I
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ltrilog/example/martin/myapplication/Database/Database;.getDataByDateRangeChart:(ILjava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.addBarChart:(Landroid/widget/LinearLayout;)V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toStringChart:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.setEntries:(Ljava/util/ArrayList;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.invalidate:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.setAxixXMinValue:(F)V
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Lcom/github/mikephil/charting/charts/BarChart;.<init>:(Landroid/content/Context;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.<init>:(Landroid/content/Context;Ljava/util/ArrayList;F)V
+    Ljava/util/ArrayList;.size:()I
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setEntries:(Ljava/util/ArrayList;)Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.setAxixXmaxValues:(F)V
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setAllDates:()V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setLinearLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.prepareXAxis:([Ljava/lang/String;)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Landroid/content/ContextWrapper;.getApplicationContext:()Landroid/content/Context;
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Lcom/github/mikephil/charting/utils/MPPointD;.getInstance:(DD)Lcom/github/mikephil/charting/utils/MPPointD;
+    Lcom/github/mikephil/charting/utils/ObjectPool;.get:()Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;
+
+Ltrilog/example/martin/myapplication/Database/Database;.getDataByDateRange:(ILjava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Database/Database;.getData:(Ljava/lang/String;I)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/data/BarData;.groupBars:(FFF)V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Lcom/github/mikephil/charting/interfaces/datasets/IBarDataSet?;.getEntryForIndex:(I)Lcom/github/mikephil/charting/data/Entry;
+    Ljava/lang/RuntimeException;.<init>:(Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/data/BarData;.getGroupWidth:(FF)F
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/data/Entry;.setX:(F)V
+    Ljava/util/ArrayList;.size:()I
+    Lcom/github/mikephil/charting/data/ChartData;.notifyDataChanged:()V
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Lcom/github/mikephil/charting/interfaces/datasets/IBarDataSet?;.getEntryCount:()I
+    Lcom/github/mikephil/charting/data/ChartData;.getMaxEntryCountSet:()Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;
+
+Ltrilog/example/martin/myapplication/Sports/AddData;.addAtributes:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Objects/Attribute;.getUnit:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Objects/Attribute;.getName:()Ljava/lang/String;
+    Ljava/util/ArrayList;.size:()I
+    Landroid/widget/TextView;.setFilters:([Landroid/text/InputFilter;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createEditTex:(Ljava/lang/String;Z)Landroid/widget/EditText;
+    Ltrilog/example/martin/myapplication/Sports/AddData;.createBasicAttributeItem:(Landroid/widget/LinearLayout;Landroid/widget/TextView;Landroid/widget/EditText;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createItemText:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/text/InputFilter$LengthFilter;.<init>:(I)V
+    Landroid/widget/TextView;.setInputType:(I)V
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/utils/ViewPortHandler;.<init>:()V
+    Landroid/graphics/Matrix;.<init>:()V
+    Ljava/lang/Object;.<init>:()V
+    Landroid/graphics/RectF;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.prepareXAxis:([Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/components/XAxis;.setPosition:(Lcom/github/mikephil/charting/components/XAxis$XAxisPosition;)V
+    Lcom/github/mikephil/charting/components/XAxis;.setAvoidFirstLastClipping:(Z)V
+    Lcom/github/mikephil/charting/charts/Chart;.getXAxis:()Lcom/github/mikephil/charting/components/XAxis;
+    Lcom/github/mikephil/charting/components/AxisBase;.setValueFormatter:(Lcom/github/mikephil/charting/formatter/IAxisValueFormatter;)V
+    Ltrilog/example/martin/myapplication/Controllers/LabelsFormater;.<init>:([Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/components/AxisBase;.setGranularity:(F)V
+
+Ltrilog/example/martin/myapplication/Database/Database;.getAttributeName:(I)Ljava/lang/String;
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Landroid/database/Cursor?;.getString:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Ljava/lang/String;.valueOf:(I)Ljava/lang/String;
+    Landroid/database/Cursor?;.moveToFirst:()Z
+
+Lcom/github/mikephil/charting/data/ChartData;.addDataSet:(Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;)V
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Lcom/github/mikephil/charting/data/ChartData;.calcMinMax:(Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;)V
+
+Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.<init>:(Landroid/content/Context;Ljava/util/ArrayList;F)V
+    Ljava/lang/Object;.<init>:()V
+    Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+    Lcom/github/mikephil/charting/charts/BarChart;.<init>:(Landroid/content/Context;)V
+
+Lcom/github/mikephil/charting/utils/Transformer;.prepareMatrixValuePx:(FFFF)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentWidth:()F
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentHeight:()F
+    Ljava/lang/Float;.isInfinite:(F)Z
+    Landroid/graphics/Matrix;.reset:()V
+    Landroid/graphics/Matrix;.postTranslate:(FF)Z
+    Landroid/graphics/Matrix;.postScale:(FF)Z
+
+Ltrilog/example/martin/myapplication/Sports/DetailSport;.makeHeader:(Ltrilog/example/martin/myapplication/Objects/SportData;)Landroid/widget/RelativeLayout;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTitle:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toStringEng:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDate:()Ltrilog/example/martin/myapplication/Objects/MyDate;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getName:()Ljava/lang/String;
+    Landroid/view/View;.getLayoutParams:()Landroid/view/ViewGroup$LayoutParams;
+    Landroid/widget/RelativeLayout;.<init>:(Landroid/content/Context;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createSmallTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/widget/RelativeLayout$LayoutParams;.addRule:(I)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeaderBoxParams:(Landroid/widget/RelativeLayout;)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+
+Ltrilog/example/martin/myapplication/MenuDrawer;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/support/v7/app/ActionBarDrawerToggle;.<init>:(Landroid/app/Activity;Landroid/support/v4/widget/DrawerLayout;Landroid/support/v7/widget/Toolbar;II)V
+    Landroid/support/v4/app/FragmentManager?;.beginTransaction:()Landroid/support/v4/app/FragmentTransaction;
+    Landroid/support/v4/app/FragmentTransaction?;.commit:()I
+    Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Ltrilog/example/martin/myapplication/Fragments/FragmentHomepage;.<init>:()V
+    Landroid/support/v4/app/FragmentTransaction?;.replace:(ILandroid/support/v4/app/Fragment;)Landroid/support/v4/app/FragmentTransaction;
+    Landroid/support/v7/app/ActionBarDrawerToggle;.syncState:()V
+    Ltrilog/example/martin/myapplication/Fragments/FragmentAddData;.<init>:()V
+    Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String;
+    Landroid/app/Activity;.getIntent:()Landroid/content/Intent;
+    Landroid/support/v4/app/Fragment;.<init>:()V
+    Landroid/support/v7/app/AppCompatActivity;.setContentView:(I)V
+    Landroid/support/design/widget/NavigationView;.setNavigationItemSelectedListener:(Landroid/support/design/widget/NavigationView$OnNavigationItemSelectedListener;)V
+    Landroid/support/v4/app/FragmentActivity;.getSupportFragmentManager:()Landroid/support/v4/app/FragmentManager;
+    Landroid/support/v7/app/AppCompatActivity;.setSupportActionBar:(Landroid/support/v7/widget/Toolbar;)V
+    Ljava/lang/String;.equals:(Ljava/lang/Object;)Z
+
+Lcom/github/mikephil/charting/data/DataSet;.calcMinMax:()V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ljava/util/ArrayList;.isEmpty:()Z
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Lcom/github/mikephil/charting/data/DataSet;.calcMinMax:(Lcom/github/mikephil/charting/data/Entry;)V
+
+Lcom/github/mikephil/charting/utils/Utils;.calcTextSize:(Landroid/graphics/Paint;Ljava/lang/String;Lcom/github/mikephil/charting/utils/FSize;)V
+    Landroid/graphics/Paint;.getTextBounds:(Ljava/lang/String;IILandroid/graphics/Rect;)V
+    Landroid/graphics/Rect;.width:()I
+    Landroid/graphics/Rect;.set:(IIII)V
+    Ljava/lang/String;.length:()I
+    Landroid/graphics/Rect;.height:()I
+
+Lcom/github/mikephil/charting/utils/Utils;.init:(Landroid/content/Context;)V
+    Landroid/view/ViewConfiguration;.getScaledMinimumFlingVelocity:()I
+    Landroid/view/ViewConfiguration;.getMinimumFlingVelocity:()I
+    Landroid/view/ViewConfiguration;.getMaximumFlingVelocity:()I
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Landroid/util/Log;.e:(Ljava/lang/String;Ljava/lang/String;)I
+    Landroid/view/ViewConfiguration;.getScaledMaximumFlingVelocity:()I
+    Landroid/view/ViewConfiguration;.get:(Landroid/content/Context;)Landroid/view/ViewConfiguration;
+    Landroid/content/ContextWrapper;.getResources:()Landroid/content/res/Resources;
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.addNewElement:(Ljava/util/ArrayList;Ljava/lang/String;I)Lcom/github/mikephil/charting/data/BarEntry;
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.convertToKiloemetrs:(DLjava/lang/String;)D
+    Ltrilog/example/martin/myapplication/Objects/ChartRecord;.getMyDate:()Ltrilog/example/martin/myapplication/Objects/MyDate;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ltrilog/example/martin/myapplication/Objects/ChartRecord;.getUnit:()Ljava/lang/String;
+    Lcom/github/mikephil/charting/data/BarEntry;.<init>:(FF)V
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toString:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Objects/ChartRecord;.getDistance:()F
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ljava/lang/String;.equals:(Ljava/lang/Object;)Z
+
+Lcom/github/mikephil/charting/data/BaseDataSet;.<init>:()V
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/lang/Object;.<init>:()V
+    Landroid/graphics/Color;.rgb:(III)I
+    Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer;
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+
+Lcom/github/mikephil/charting/components/AxisBase;.getValueFormatter:()Lcom/github/mikephil/charting/formatter/IAxisValueFormatter;
+    Lcom/github/mikephil/charting/formatter/DefaultAxisValueFormatter;.getDecimalDigits:()I
+    Lcom/github/mikephil/charting/formatter/DefaultAxisValueFormatter;.<init>:(I)V
+
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.prepareOffsetMatrix:()V
+    Lcom/github/mikephil/charting/components/YAxis;.isInverted:()Z
+    Lcom/github/mikephil/charting/utils/Transformer;.prepareMatrixOffset:(Z)V
+
+Ltrilog/example/martin/myapplication/Sports/AddData;.initializeDate:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toStringEng:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Sports/AddData$2;.<init>:(Ltrilog/example/martin/myapplication/Sports/AddData;)V
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.<init>:()V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createEditTex:(Ljava/lang/String;Z)Landroid/widget/EditText;
+    Ltrilog/example/martin/myapplication/Sports/AddData;.createBasicAttributeItem:(Landroid/widget/LinearLayout;Landroid/widget/TextView;Landroid/widget/EditText;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createItemText:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/view/View;.setOnClickListener:(Landroid/view/View$OnClickListener;)V
+
+Ltrilog/example/martin/myapplication/Database/Database;.getDataLastMonth:(I)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Database/Database;.getData:(Ljava/lang/String;I)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.makeDetails:(Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;II)V
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.makeheader:(ILtrilog/example/martin/myapplication/Objects/SportData;Ltrilog/example/martin/myapplication/Objects/Sport;)Landroid/widget/RelativeLayout;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.makeContent:(Ltrilog/example/martin/myapplication/Objects/SportData;Ltrilog/example/martin/myapplication/Objects/Sport;)Landroid/widget/LinearLayout;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Database/Database;.getSport:(J)Ltrilog/example/martin/myapplication/Objects/Sport;
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Ltrilog/example/martin/myapplication/Objects/SportData;.<init>:(IILjava/lang/String;FLtrilog/example/martin/myapplication/Objects/MyTime;Ltrilog/example/martin/myapplication/Objects/MyDate;Ljava/util/ArrayList;)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Database/Database;.getDatesByRange:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Landroid/database/Cursor?;.moveToNext:()Z
+    Landroid/database/Cursor?;.getString:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Landroid/database/Cursor?;.isAfterLast:()Z
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.<init>:(Ljava/lang/String;)V
+    Landroid/database/Cursor?;.moveToFirst:()Z
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/components/YAxis;.calculate:(FF)V
+    Lcom/github/mikephil/charting/components/YAxis;.getSpaceTop:()F
+    Ljava/lang/Math;.abs:(F)F
+    Lcom/github/mikephil/charting/components/YAxis;.getSpaceBottom:()F
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setLegend:()V
+    Lcom/github/mikephil/charting/components/ComponentBase;.setTextColor:(I)V
+    Lcom/github/mikephil/charting/charts/Chart;.getLegend:()Lcom/github/mikephil/charting/components/Legend;
+    Lcom/github/mikephil/charting/components/Legend;.setPosition:(Lcom/github/mikephil/charting/components/Legend$LegendPosition;)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/components/Legend;.setWordWrapEnabled:(Z)V
+
+Lcom/github/mikephil/charting/data/LineScatterCandleRadarDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Lcom/github/mikephil/charting/data/BarLineScatterCandleBubbleDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+
+Lcom/github/mikephil/charting/charts/Chart;.setData:(Lcom/github/mikephil/charting/data/ChartData;)V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.setValueFormatter:(Lcom/github/mikephil/charting/formatter/IValueFormatter;)V
+    Lcom/github/mikephil/charting/data/ChartData;.getYMin:()F
+    Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.needsFormatter:()Z
+    Lcom/github/mikephil/charting/charts/Chart;.setupDefaultFormatter:(FF)V
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getValueFormatter:()Lcom/github/mikephil/charting/formatter/IValueFormatter;
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.setValueFormatter:(Lcom/github/mikephil/charting/formatter/IValueFormatter;)V
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Lcom/github/mikephil/charting/data/ChartData;.getYMax:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getValueFormatter:()Lcom/github/mikephil/charting/formatter/IValueFormatter;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.needsFormatter:()Z
+    Lcom/github/mikephil/charting/charts/Chart?;.notifyDataSetChanged:()V
+    Lcom/github/mikephil/charting/data/ChartData;.getDataSets:()Ljava/util/List;
+
+Ltrilog/example/martin/myapplication/Fragments/FragmentHomepage;.<init>:()V
+    Landroid/support/v4/app/Fragment;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Controllers/LongLabelsFormater;.<init>:()V
+    Ljava/lang/Object;.<init>:()V
+    Ljava/text/DecimalFormat;.<init>:(Ljava/lang/String;)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.makeheader:(ILtrilog/example/martin/myapplication/Objects/SportData;Ltrilog/example/martin/myapplication/Objects/Sport;)Landroid/widget/RelativeLayout;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTitle:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toStringEng:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Objects/Sport;.getName:()Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDate:()Ltrilog/example/martin/myapplication/Objects/MyDate;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setRelativeLayoutParams:(Landroid/widget/RelativeLayout;Ljava/lang/String;)V
+    Landroid/view/View;.getLayoutParams:()Landroid/view/ViewGroup$LayoutParams;
+    Landroid/widget/RelativeLayout;.<init>:(Landroid/content/Context;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createSmallTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/widget/RelativeLayout$LayoutParams;.addRule:(I)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+
+Lcom/github/mikephil/charting/data/BarEntry;.<init>:(FF)V
+    Lcom/github/mikephil/charting/data/Entry;.<init>:(FF)V
+
+Lcom/github/mikephil/charting/renderer/AxisRenderer;.computeAxis:(FFZ)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentLeft:()F
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentBottom:()F
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentWidth:()F
+    Lcom/github/mikephil/charting/renderer/XAxisRenderer;.computeAxisValues:(FF)V
+    Lcom/github/mikephil/charting/utils/MPPointD;.recycleInstance:(Lcom/github/mikephil/charting/utils/MPPointD;)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.isFullyZoomedOutY:()Z
+    Lcom/github/mikephil/charting/renderer/AxisRenderer;.computeAxisValues:(FF)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentTop:()F
+    Lcom/github/mikephil/charting/utils/Transformer;.getValuesByTouchPoint:(FF)Lcom/github/mikephil/charting/utils/MPPointD;
+
+Lcom/github/mikephil/charting/components/Legend;.setPosition:(Lcom/github/mikephil/charting/components/Legend$LegendPosition;)V
+    Ljava/lang/Enum;.ordinal:()I
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V
+    Landroid/widget/TextView;.<init>:(Landroid/content/Context;)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Landroid/widget/TextView;.setTextColor:(I)V
+
+Lcom/github/mikephil/charting/utils/FSize;.getInstance:(FF)Lcom/github/mikephil/charting/utils/FSize;
+    Lcom/github/mikephil/charting/utils/ObjectPool;.get:()Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.addCHartToLayout:(Landroid/widget/LinearLayout;)V
+    Landroid/view/View;.getLayoutParams:()Landroid/view/ViewGroup$LayoutParams;
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+
+Lcom/github/mikephil/charting/data/ChartData;.notifyDataChanged:()V
+    Lcom/github/mikephil/charting/data/ChartData;.calcMinMax:()V
+
+Ltrilog/example/martin/myapplication/Objects/MyDate;.toString:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ljava/lang/String;.valueOf:(I)Ljava/lang/String;
+    Ljava/lang/String;.length:()I
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setEntries:(Ljava/util/ArrayList;)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setAllRecords:()Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.addNewElement:(Ljava/util/ArrayList;Ljava/lang/String;I)Lcom/github/mikephil/charting/data/BarEntry;
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toString:()Ljava/lang/String;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+
+Lcom/github/mikephil/charting/utils/ViewPortHandler;.restrainViewPort:(FFFF)V
+    Landroid/graphics/RectF;.set:(FFFF)V
+
+Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.procesData:()V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ljava/lang/Integer;.intValue:()I
+    Ltrilog/example/martin/myapplication/Database/Database;.getSportName:(J)Ljava/lang/String;
+    Lcom/github/mikephil/charting/data/BaseDataSet;.setColor:(I)V
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/data/ChartData;.addDataSet:(Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;)V
+    Ljava/util/ArrayList;.size:()I
+    Lcom/github/mikephil/charting/data/BarDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Lcom/github/mikephil/charting/data/BarData;.<init>:()V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/data/BaseDataSet;.setDrawValues:(Z)V
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Ltrilog/example/martin/myapplication/Sports/DeleteData;.makeDetails:(Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;)V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDistance:()F
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toStringEng:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDate:()Ltrilog/example/martin/myapplication/Objects/MyDate;
+    Ljava/lang/StringBuilder;.append:(F)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Sports/DeleteData;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Sports/DeleteData;.addDeleteIcon:(Landroid/widget/RelativeLayout;Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;)V
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDuration:()Ltrilog/example/martin/myapplication/Objects/MyTime;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ltrilog/example/martin/myapplication/Objects/Sport;.getUnit:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Landroid/view/View;.getLayoutParams:()Landroid/view/ViewGroup$LayoutParams;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Database/Database;.getAttributeUnit:(I)Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getName:()Ljava/lang/String;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Landroid/widget/RelativeLayout;.<init>:(Landroid/content/Context;)V
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getAttributesData:()Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createSmallTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setLinearLayoutParams:(Landroid/widget/LinearLayout;)V
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/widget/RelativeLayout$LayoutParams;.addRule:(I)V
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getValue:()F
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeaderBoxParams:(Landroid/widget/RelativeLayout;)V
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getId:()I
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Ltrilog/example/martin/myapplication/Sports/EditSport;.initializeBasicAttributes:()V
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Landroid/widget/ArrayAdapter;.<init>:(Landroid/content/Context;ILjava/util/List;)V
+
+Lcom/github/mikephil/charting/charts/Chart;.init:()V
+    Lcom/github/mikephil/charting/components/Description;.<init>:()V
+    Lcom/github/mikephil/charting/animation/ChartAnimator;.<init>:(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/charts/Chart$1;.<init>:(Lcom/github/mikephil/charting/charts/Chart;)V
+    Landroid/graphics/Paint;.setColor:(I)V
+    Lcom/github/mikephil/charting/renderer/LegendRenderer;.<init>:(Lcom/github/mikephil/charting/utils/ViewPortHandler;Lcom/github/mikephil/charting/components/Legend;)V
+    Landroid/graphics/Paint;.setTextSize:(F)V
+    Landroid/graphics/Paint;.setTextAlign:(Landroid/graphics/Paint$Align;)V
+    Lcom/github/mikephil/charting/utils/Utils;.init:(Landroid/content/Context;)V
+    Landroid/graphics/Color;.rgb:(III)I
+    Lcom/github/mikephil/charting/animation/ChartAnimator;.<init>:()V
+    Landroid/graphics/Paint;.<init>:(I)V
+    Lcom/github/mikephil/charting/components/Legend;.<init>:()V
+    Landroid/view/View;.setWillNotDraw:(Z)V
+    Lcom/github/mikephil/charting/components/XAxis;.<init>:()V
+    Landroid/view/View;.getContext:()Landroid/content/Context;
+
+Lcom/github/mikephil/charting/formatter/DefaultValueFormatter;.setup:(I)V
+    Ljava/lang/StringBuffer;.<init>:()V
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuffer;.toString:()Ljava/lang/String;
+    Ljava/text/DecimalFormat;.<init>:(Ljava/lang/String;)V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.createEditTex:(Ljava/lang/String;Z)Landroid/widget/EditText;
+    Landroid/widget/TextView;.setGravity:(I)V
+    Landroid/widget/TextView;.setTextColor:(I)V
+    Landroid/widget/TextView;.setHintTextColor:(I)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setFullWidth:(Landroid/view/View;)V
+    Landroid/widget/EditText;.<init>:(Landroid/content/Context;)V
+    Landroid/view/View;.setFocusable:(Z)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Landroid/view/View;.setBackgroundColor:(I)V
+    Landroid/widget/TextView;.setHint:(Ljava/lang/CharSequence;)V
+
+Ltrilog/example/martin/myapplication/Database/Database;.getAttributeUnit:(I)Ljava/lang/String;
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Landroid/database/Cursor?;.getString:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Ljava/lang/String;.valueOf:(I)Ljava/lang/String;
+    Landroid/database/Cursor?;.moveToFirst:()Z
+
+Lcom/github/mikephil/charting/data/LineData;.<init>:()V
+    Lcom/github/mikephil/charting/data/BarLineScatterCandleBubbleData;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.addLinearChart:(Landroid/widget/LinearLayout;I)V
+    Ltrilog/example/martin/myapplication/Database/Database;.getSportName:(J)Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setMultipleEntries:(Ljava/util/ArrayList;I)V
+    Landroid/content/res/Resources;.getDisplayMetrics:()Landroid/util/DisplayMetrics;
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.prepareXAxis:(Ljava/util/ArrayList;)[Ljava/lang/String;
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Lcom/github/mikephil/charting/charts/BarChart;.<init>:(Landroid/content/Context;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.prepareXAxis:([Ljava/lang/String;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setEnableLegend:(Z)V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.invalidate:(Landroid/widget/LinearLayout;)V
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.prepareData:(I)Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setLinearLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.<init>:(Landroid/content/Context;F)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Landroid/content/ContextWrapper;.getApplicationContext:()Landroid/content/Context;
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.addEntries:(ILjava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Lcom/github/mikephil/charting/data/Entry;.<init>:(FF)V
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ltrilog/example/martin/myapplication/Objects/ChartRecord;.getDistance:()F
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ltrilog/example/martin/myapplication/Database/Database;.getDataByDateRangeChart:(ILjava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setEnableLegend:(Z)V
+    Lcom/github/mikephil/charting/charts/Chart;.getLegend:()Lcom/github/mikephil/charting/components/Legend;
+    Lcom/github/mikephil/charting/components/ComponentBase;.setEnabled:(Z)V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setLegend:()V
+
+Lcom/github/mikephil/charting/charts/Chart;.<init>:(Landroid/content/Context;)V
+    Ljava/util/ArrayList;.<init>:()V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.<init>:()V
+    Landroid/view/ViewGroup;.<init>:(Landroid/content/Context;)V
+    Lcom/github/mikephil/charting/charts/Chart;.init:()V
+    Lcom/github/mikephil/charting/formatter/DefaultValueFormatter;.<init>:(I)V
+
+Lcom/github/mikephil/charting/renderer/LegendRenderer;.computeLegend:(Lcom/github/mikephil/charting/data/ChartData;)V
+    Ljava/lang/Integer;.intValue:()I
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getLabel:()Ljava/lang/String;
+    Ljava/util/Collections;.addAll:(Ljava/util/Collection;[Ljava/lang/Object;)Z
+    Lcom/github/mikephil/charting/interfaces/datasets/IBarDataSet?;.isStacked:()Z
+    Landroid/graphics/Paint;.setColor:(I)V
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getForm:()Lcom/github/mikephil/charting/components/Legend$LegendForm;
+    Lcom/github/mikephil/charting/components/Legend;.calculateDimensions:(Landroid/graphics/Paint;Lcom/github/mikephil/charting/utils/ViewPortHandler;)V
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getLabel:()Ljava/lang/String;
+    Lcom/github/mikephil/charting/data/PieEntry;.getLabel:()Ljava/lang/String;
+    Lcom/github/mikephil/charting/data/ChartData;.getDataSetCount:()I
+    Lcom/github/mikephil/charting/interfaces/datasets/IBarDataSet?;.getStackLabels:()[Ljava/lang/String;
+    Lcom/github/mikephil/charting/components/Legend;.isLegendCustom:()Z
+    Lcom/github/mikephil/charting/components/ComponentBase;.getTextColor:()I
+    Lcom/github/mikephil/charting/components/ComponentBase;.getTypeface:()Landroid/graphics/Typeface;
+    Lcom/github/mikephil/charting/interfaces/datasets/IBarDataSet?;.getStackSize:()I
+    Lcom/github/mikephil/charting/components/Legend;.setEntries:(Ljava/util/List;)V
+    Landroid/graphics/Paint;.setTextSize:(F)V
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getFormLineWidth:()F
+    Landroid/graphics/Paint;.setTypeface:(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+    Lcom/github/mikephil/charting/components/Legend;.getExtraEntries:()[Lcom/github/mikephil/charting/components/LegendEntry;
+    Ljava/util/ArrayList;.size:()I
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getEntryCount:()I
+    Lcom/github/mikephil/charting/interfaces/datasets/ICandleDataSet?;.getDecreasingColor:()I
+    Lcom/github/mikephil/charting/interfaces/datasets/IBarDataSet?;.getLabel:()Ljava/lang/String;
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getFormSize:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getColors:()Ljava/util/List;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getFormLineWidth:()F
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Lcom/github/mikephil/charting/components/LegendEntry;.<init>:(Ljava/lang/String;Lcom/github/mikephil/charting/components/Legend$LegendForm;FFLandroid/graphics/DashPathEffect;I)V
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getFormLineDashEffect:()Landroid/graphics/DashPathEffect;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getForm:()Lcom/github/mikephil/charting/components/Legend$LegendForm;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getFormSize:()F
+    Ljava/util/ArrayList;.clear:()V
+    Lcom/github/mikephil/charting/components/ComponentBase;.getTextSize:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getFormLineDashEffect:()Landroid/graphics/DashPathEffect;
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getEntryForIndex:(I)Lcom/github/mikephil/charting/data/Entry;
+    Lcom/github/mikephil/charting/data/ChartData;.getDataSetByIndex:(I)Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;
+    Lcom/github/mikephil/charting/interfaces/datasets/ICandleDataSet?;.getIncreasingColor:()I
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/data/LineDataSet;.setCircleColor:(I)V
+    Lcom/github/mikephil/charting/data/LineDataSet;.resetCircleColors:()V
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer;
+
+Ltrilog/example/martin/myapplication/Sports/AddData$1;.<init>:(Ltrilog/example/martin/myapplication/Sports/AddData;)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Sports/AddData;.createBasicAttributeItem:(Landroid/widget/LinearLayout;Landroid/widget/TextView;Landroid/widget/EditText;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createDivider:()Landroid/view/View;
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+
+Ltrilog/example/martin/myapplication/Sports/DeleteData;.createAllBoxes:()V
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ltrilog/example/martin/myapplication/Sports/DeleteData;.makeDetails:(Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;)V
+    Ljava/util/Iterator?;.hasNext:()Z
+
+Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+    Landroid/database/sqlite/SQLiteOpenHelper;.<init>:(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
+
+Ltrilog/example/martin/myapplication/Fragments/FragmentAddData;.<init>:()V
+    Landroid/support/v4/app/ListFragment;.<init>:()V
+
+Lcom/github/mikephil/charting/animation/ChartAnimator;.<init>:()V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Sports/EditSport;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/widget/ListView;.setAdapter:(Landroid/widget/ListAdapter;)V
+    Ltrilog/example/martin/myapplication/Database/Database;.getAttributes:(I)Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/ListAdapter/AttributeAdapter;.<init>:(Landroid/app/Activity;Ljava/util/ArrayList;Ltrilog/example/martin/myapplication/ListAdapter/ActivityAttributeListener;)V
+    Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Ljava/util/ArrayList;.size:()I
+    Landroid/content/Intent;.getIntExtra:(Ljava/lang/String;I)I
+    Ltrilog/example/martin/myapplication/Sports/EditSport;.initializeBasicAttributes:()V
+    Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+    Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Sports/EditSport;.initializeToolbar:()V
+    Landroid/app/Activity;.getIntent:()Landroid/content/Intent;
+    Landroid/support/v7/app/AppCompatActivity;.setContentView:(I)V
+
+Lcom/github/mikephil/charting/data/BarDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/data/BarDataSet;.calcEntryCountIncludingStacks:(Ljava/util/List;)V
+    Lcom/github/mikephil/charting/data/BarDataSet;.calcStackSize:(Ljava/util/List;)V
+    Landroid/graphics/Color;.rgb:(III)I
+    Lcom/github/mikephil/charting/data/BarLineScatterCandleBubbleDataSet;.<init>:(Ljava/util/List;Ljava/lang/String;)V
+
+Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.setYAxis:()V
+    Lcom/github/mikephil/charting/components/AxisBase;.setValueFormatter:(Lcom/github/mikephil/charting/formatter/IAxisValueFormatter;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.getAxis:(Lcom/github/mikephil/charting/components/YAxis$AxisDependency;)Lcom/github/mikephil/charting/components/YAxis;
+    Ltrilog/example/martin/myapplication/Controllers/LongLabelsFormater;.<init>:()V
+    Lcom/github/mikephil/charting/components/AxisBase;.setLabelCount:(IZ)V
+
+Lcom/github/mikephil/charting/data/BarData;.<init>:()V
+    Lcom/github/mikephil/charting/data/BarLineScatterCandleBubbleData;.<init>:()V
+
+Lcom/github/mikephil/charting/data/DataSet;.calcMinMaxX:(Lcom/github/mikephil/charting/data/Entry;)V
+    Lcom/github/mikephil/charting/data/Entry;.getX:()F
+    Lcom/github/mikephil/charting/data/PieEntry;.getX:()F
+
+Lcom/github/mikephil/charting/components/Legend;.<init>:()V
+    Lcom/github/mikephil/charting/components/ComponentBase;.<init>:()V
+    Ljava/util/ArrayList;.<init>:(I)V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.invalidate:(Landroid/widget/LinearLayout;)V
+    Lcom/github/mikephil/charting/components/Description;.<init>:()V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setYAxis:()V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.setBorderColor:(I)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.setBorderWidth:(F)V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setXAxis:()V
+    Landroid/graphics/Paint;.setColor:(I)V
+    Lcom/github/mikephil/charting/components/Description;.setText:(Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.setDrawGridBackground:(Z)V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.setLegend:()V
+    Lcom/github/mikephil/charting/charts/Chart;.setData:(Lcom/github/mikephil/charting/data/ChartData;)V
+    Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.addCHartToLayout:(Landroid/widget/LinearLayout;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.setDrawBorders:(Z)V
+    Lcom/github/mikephil/charting/components/ComponentBase;.setEnabled:(Z)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/charts/Chart;.setDescription:(Lcom/github/mikephil/charting/components/Description;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.getPaint:(I)Landroid/graphics/Paint;
+    Lcom/github/mikephil/charting/charts/Chart;.setTouchEnabled:(Z)V
+    Landroid/view/View;.invalidate:()V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.getAxisRight:()Lcom/github/mikephil/charting/components/YAxis;
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.setDiferentDates:()V
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.<init>:(Ljava/lang/String;)V
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.setDay:(I)V
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.getDay:()I
+
+Lcom/github/mikephil/charting/components/YAxis;.getRequiredWidthSpace:(Landroid/graphics/Paint;)F
+    Ljava/lang/Math;.min:(FF)F
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Lcom/github/mikephil/charting/components/AxisBase;.getLongestLabel:()Ljava/lang/String;
+    Lcom/github/mikephil/charting/components/ComponentBase;.getXOffset:()F
+    Landroid/graphics/Paint;.setTextSize:(F)V
+    Ljava/lang/Math;.max:(FF)F
+    Lcom/github/mikephil/charting/components/YAxis;.getMaxWidth:()F
+    Lcom/github/mikephil/charting/components/YAxis;.getMinWidth:()F
+    Lcom/github/mikephil/charting/utils/Utils;.calcTextWidth:(Landroid/graphics/Paint;Ljava/lang/String;)I
+
+Ltrilog/example/martin/myapplication/Database/Database;.getData:(Ljava/lang/String;I)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Ltrilog/example/martin/myapplication/Database/Database;.getSportName:(J)Ljava/lang/String;
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Landroid/database/Cursor?;.moveToNext:()Z
+    Landroid/database/Cursor?;.getInt:(I)I
+    Landroid/database/Cursor?;.getString:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.<init>:(IILjava/lang/String;FLtrilog/example/martin/myapplication/Objects/MyTime;Ltrilog/example/martin/myapplication/Objects/MyDate;Ljava/util/ArrayList;)V
+    Landroid/database/Cursor?;.isAfterLast:()Z
+    Landroid/database/Cursor?;.getFloat:(I)F
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.<init>:(Ljava/lang/String;)V
+    Landroid/database/Cursor?;.moveToFirst:()Z
+    Ltrilog/example/martin/myapplication/Database/Database;.getAttributesData:(I)Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Objects/MyTime;.<init>:(I)V
+
+Lcom/github/mikephil/charting/renderer/Renderer;.<init>:(Lcom/github/mikephil/charting/utils/ViewPortHandler;)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setAllDates:()V
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ljava/util/ArrayList;.size:()I
+    Ltrilog/example/martin/myapplication/Database/Database;.getDatesByRange:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/charts/LineChart;.<init>:(Landroid/content/Context;)V
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.<init>:(Landroid/content/Context;)V
+
+Lcom/github/mikephil/charting/utils/Transformer;.pixelsToValue:([F)V
+    Landroid/graphics/Matrix;.invert:(Landroid/graphics/Matrix;)Z
+    Landroid/graphics/Matrix;.mapPoints:([F)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.getMatrixTouch:()Landroid/graphics/Matrix;
+    Landroid/graphics/Matrix;.reset:()V
+
+Lcom/github/mikephil/charting/utils/Utils;.calcTextSize:(Landroid/graphics/Paint;Ljava/lang/String;)Lcom/github/mikephil/charting/utils/FSize;
+    Lcom/github/mikephil/charting/utils/FSize;.getInstance:(FF)Lcom/github/mikephil/charting/utils/FSize;
+    Lcom/github/mikephil/charting/utils/Utils;.calcTextSize:(Landroid/graphics/Paint;Ljava/lang/String;Lcom/github/mikephil/charting/utils/FSize;)V
+
+Lcom/github/mikephil/charting/components/AxisBase;.setLabelCount:(IZ)V
+    Lcom/github/mikephil/charting/components/AxisBase;.setLabelCount:(I)V
+
+Lcom/github/mikephil/charting/data/BaseDataSet;.<init>:(Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/data/BaseDataSet;.<init>:()V
+
+Lcom/github/mikephil/charting/components/AxisBase;.setAxisMinimum:(F)V
+    Ljava/lang/Math;.abs:(F)F
+
+Lcom/github/mikephil/charting/data/BaseEntry;.<init>:(F)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.addHeader:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTitle:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeaderBoxParams:(Landroid/widget/RelativeLayout;)V
+    Landroid/widget/RelativeLayout;.<init>:(Landroid/content/Context;)V
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.prepareData:(I)Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Sports/CustomCompareSports;.addEntries:(ILjava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeader:(Landroid/widget/RelativeLayout;)V
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/view/View;.setPadding:(IIII)V
+    Landroid/widget/RelativeLayout$LayoutParams;.<init>:(II)V
+
+Lcom/github/mikephil/charting/components/LegendEntry;.<init>:(Ljava/lang/String;Lcom/github/mikephil/charting/components/Legend$LegendForm;FFLandroid/graphics/DashPathEffect;I)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.createSmallTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Landroid/widget/TextView;.setTextColor:(I)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.setBoxShadowParams:(Landroid/widget/LinearLayout;)V
+    Landroid/view/View;.setBackgroundDrawable:(Landroid/graphics/drawable/Drawable;)V
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Landroid/view/ViewGroup$MarginLayoutParams;.setMargins:(IIII)V
+    Landroid/widget/LinearLayout$LayoutParams;.<init>:(II)V
+    Landroid/view/View;.setBackground:(Landroid/graphics/drawable/Drawable;)V
+    Landroid/widget/LinearLayout;.setOrientation:(I)V
+    Landroid/content/res/Resources;.getDrawable:(I)Landroid/graphics/drawable/Drawable;
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/content/ContextWrapper;.getResources:()Landroid/content/res/Resources;
+
+Ltrilog/example/martin/myapplication/MainActivity;.onCreate:(Landroid/os/Bundle;)V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Ltrilog/example/martin/myapplication/MainActivity;.setFadeInAnimation:(Landroid/widget/ImageView;II)V
+    Landroid/support/v7/app/AppCompatActivity;.setContentView:(I)V
+    Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V
+
+Lcom/github/mikephil/charting/components/AxisBase;.setValueFormatter:(Lcom/github/mikephil/charting/formatter/IAxisValueFormatter;)V
+    Lcom/github/mikephil/charting/formatter/DefaultAxisValueFormatter;.<init>:(I)V
+
+Ltrilog/example/martin/myapplication/Database/Database;.getDataByDateRangeChart:(ILjava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Database/Database;.getSumData:(Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Objects/Sport;.getUnit:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Database/Database;.getSport:(J)Ltrilog/example/martin/myapplication/Objects/Sport;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.createAllCompareBoxes:(Landroid/widget/LinearLayout;)V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ljava/lang/Integer;.intValue:()I
+    Ltrilog/example/martin/myapplication/Database/Database;.getDataByDate:(ILjava/lang/String;)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.makeDetails:(Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;II)V
+    Ltrilog/example/martin/myapplication/Objects/MyDate;.toString:()Ljava/lang/String;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+
+Ltrilog/example/martin/myapplication/Sports/EditSport;.initializeToolbar:()V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Landroid/support/v7/app/ActionBar?;.setDisplayShowHomeEnabled:(Z)V
+    Landroid/support/v7/app/ActionBar?;.setTitle:(Ljava/lang/CharSequence;)V
+    Landroid/support/v7/app/AppCompatActivity;.getSupportActionBar:()Landroid/support/v7/app/ActionBar;
+    Landroid/support/v7/app/ActionBar?;.setDisplayShowTitleEnabled:(Z)V
+    Landroid/support/v7/app/ActionBar?;.setDisplayHomeAsUpEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.setSupportActionBar:(Landroid/support/v7/widget/Toolbar;)V
+
+Ltrilog/example/martin/myapplication/Objects/Attribute;.<init>:(Ljava/lang/String;ILjava/lang/String;)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.setLinearLayoutParams:(Landroid/widget/LinearLayout;)V
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/widget/LinearLayout$LayoutParams;.<init>:(II)V
+    Landroid/view/View;.setPadding:(IIII)V
+    Landroid/widget/LinearLayout;.setOrientation:(I)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.makeContent:(Ltrilog/example/martin/myapplication/Objects/SportData;Ltrilog/example/martin/myapplication/Objects/Sport;)Landroid/widget/LinearLayout;
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDistance:()F
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(F)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getDuration:()Ltrilog/example/martin/myapplication/Objects/MyTime;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Ltrilog/example/martin/myapplication/Objects/Sport;.getUnit:()Ljava/lang/String;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Database/Database;.getAttributeUnit:(I)Ljava/lang/String;
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getName:()Ljava/lang/String;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ltrilog/example/martin/myapplication/Objects/SportData;.getAttributesData:()Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setLinearLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getValue:()F
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.getId:()I
+    Landroid/view/ViewGroup;.addView:(Landroid/view/View;)V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+    Landroid/widget/LinearLayout;.<init>:(Landroid/content/Context;)V
+
+Ltrilog/example/martin/myapplication/Sports/CustomViewSports;.setLayoutParams:(Landroid/widget/LinearLayout;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setBoxShadowParams:(Landroid/widget/LinearLayout;)V
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.createItemText:(Ljava/lang/String;)Landroid/widget/TextView;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.createTextView:(Ljava/lang/String;)Landroid/widget/TextView;
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeaderBoxParams:(Landroid/widget/RelativeLayout;Ljava/lang/String;)V
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeader:(Landroid/widget/RelativeLayout;)V
+    Landroid/view/View;.setBackgroundColor:(I)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+
+Ltrilog/example/martin/myapplication/Controllers/MyLineChart;.<init>:(Landroid/content/Context;F)V
+    Lcom/github/mikephil/charting/charts/LineChart;.<init>:(Landroid/content/Context;)V
+    Ljava/lang/Object;.<init>:()V
+    Ltrilog/example/martin/myapplication/Database/Database;.<init>:(Landroid/content/Context;)V
+
+Ltrilog/example/martin/myapplication/Objects/ChartRecord;.<init>:(Ljava/lang/String;FLtrilog/example/martin/myapplication/Objects/MyDate;Ljava/lang/String;)V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/data/BarLineScatterCandleBubbleData;.<init>:()V
+    Lcom/github/mikephil/charting/data/ChartData;.<init>:()V
+
+Lcom/github/mikephil/charting/renderer/XAxisRenderer;.computeAxis:(FFZ)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentLeft:()F
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentWidth:()F
+    Lcom/github/mikephil/charting/renderer/XAxisRenderer;.computeAxisValues:(FF)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentRight:()F
+    Lcom/github/mikephil/charting/utils/MPPointD;.recycleInstance:(Lcom/github/mikephil/charting/utils/MPPointD;)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.isFullyZoomedOutX:()Z
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.contentTop:()F
+    Lcom/github/mikephil/charting/utils/Transformer;.getValuesByTouchPoint:(FF)Lcom/github/mikephil/charting/utils/MPPointD;
+
+Lcom/github/mikephil/charting/utils/ObjectPool;.refillPool:()V
+    Lcom/github/mikephil/charting/utils/ObjectPool;.refillPool:(F)V
+
+Lcom/github/mikephil/charting/formatter/DefaultValueFormatter;.<init>:(I)V
+    Lcom/github/mikephil/charting/formatter/DefaultValueFormatter;.setup:(I)V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/utils/Utils;.getLineSpacing:(Landroid/graphics/Paint;Landroid/graphics/Paint$FontMetrics;)F
+    Landroid/graphics/Paint;.getFontMetrics:(Landroid/graphics/Paint$FontMetrics;)F
+
+Lcom/github/mikephil/charting/renderer/AxisRenderer;.computeAxisValues:(FF)V
+    Ljava/lang/Math;.pow:(DD)D
+    Ljava/lang/Math;.floor:(D)D
+    Lcom/github/mikephil/charting/utils/Utils;.nextUp:(D)D
+    Lcom/github/mikephil/charting/components/AxisBase;.isCenterAxisLabelsEnabled:()Z
+    Ljava/lang/Double;.isInfinite:(D)Z
+    Lcom/github/mikephil/charting/components/AxisBase;.getLabelCount:()I
+    Ljava/lang/Math;.ceil:(D)D
+    Lcom/github/mikephil/charting/components/AxisBase;.isGranularityEnabled:()Z
+    Lcom/github/mikephil/charting/components/AxisBase;.getGranularity:()F
+    Lcom/github/mikephil/charting/utils/Utils;.roundToNextSignificant:(D)F
+    Lcom/github/mikephil/charting/components/AxisBase;.isForceLabelsEnabled:()Z
+    Ljava/lang/Math;.log10:(D)D
+    Ljava/lang/Math;.abs:(F)F
+
+Lcom/github/mikephil/charting/components/XAxis;.<init>:()V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Lcom/github/mikephil/charting/components/AxisBase;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Objects/Sport;.<init>:(ILjava/lang/String;Ljava/lang/String;)V
+    Ljava/lang/Object;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Database/Database;.getDataLastYear:(I)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ltrilog/example/martin/myapplication/Database/Database;.getData:(Ljava/lang/String;I)Ljava/util/ArrayList;
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/data/ChartData;.<init>:()V
+    Ljava/lang/Object;.<init>:()V
+    Ljava/util/ArrayList;.<init>:()V
+
+Lcom/github/mikephil/charting/utils/Transformer;.getValuesByTouchPoint:(FFLcom/github/mikephil/charting/utils/MPPointD;)V
+    Lcom/github/mikephil/charting/utils/Transformer;.pixelsToValue:([F)V
+
+Ltrilog/example/martin/myapplication/Sports/DeleteData$1;.<init>:(Ltrilog/example/martin/myapplication/Sports/DeleteData;Landroid/widget/LinearLayout;Ltrilog/example/martin/myapplication/Objects/SportData;)V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/formatter/DefaultAxisValueFormatter;.<init>:(I)V
+    Ljava/lang/Object;.<init>:()V
+    Ljava/lang/StringBuffer;.<init>:()V
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuffer;.toString:()Ljava/lang/String;
+    Ljava/text/DecimalFormat;.<init>:(Ljava/lang/String;)V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.getPaint:(I)Landroid/graphics/Paint;
+    Lcom/github/mikephil/charting/charts/Chart;.getPaint:(I)Landroid/graphics/Paint;
+
+Lcom/github/mikephil/charting/utils/Utils;.roundToNextSignificant:(D)F
+    Ljava/lang/Math;.pow:(DD)D
+    Ljava/lang/Double;.isNaN:(D)Z
+    Ljava/lang/Double;.isInfinite:(D)Z
+    Ljava/lang/Math;.round:(D)J
+    Ljava/lang/Math;.ceil:(D)D
+    Ljava/lang/Math;.log10:(D)D
+
+Lcom/github/mikephil/charting/data/DataSet;.calcMinMax:(Lcom/github/mikephil/charting/data/Entry;)V
+    Lcom/github/mikephil/charting/data/DataSet;.calcMinMaxX:(Lcom/github/mikephil/charting/data/Entry;)V
+    Lcom/github/mikephil/charting/data/DataSet;.calcMinMaxY:(Lcom/github/mikephil/charting/data/Entry;)V
+
+Lcom/github/mikephil/charting/utils/Transformer;.prepareMatrixOffset:(Z)V
+    Landroid/graphics/Matrix;.setTranslate:(FF)V
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.offsetTop:()F
+    Landroid/graphics/Matrix;.reset:()V
+    Landroid/graphics/Matrix;.postTranslate:(FF)Z
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.offsetBottom:()F
+    Landroid/graphics/Matrix;.postScale:(FF)Z
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.getChartHeight:()F
+    Lcom/github/mikephil/charting/utils/ViewPortHandler;.offsetLeft:()F
+
+Lcom/github/mikephil/charting/components/Legend;.getMaximumEntryWidth:(Landroid/graphics/Paint;)F
+    Lcom/github/mikephil/charting/utils/Utils;.calcTextWidth:(Landroid/graphics/Paint;Ljava/lang/String;)I
+    Ljava/lang/Float;.isNaN:(F)Z
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+
+Ltrilog/example/martin/myapplication/Objects/MyDate;.<init>:(Ljava/lang/String;)V
+    Ljava/lang/Object;.<init>:()V
+    Ljava/lang/Integer;.parseInt:(Ljava/lang/String;)I
+    Ljava/lang/String;.split:(Ljava/lang/String;)[Ljava/lang/String;
+
+Lcom/github/mikephil/charting/data/ChartData;.calcMinMax:()V
+    Ljava/util/Iterator?;.hasNext:()Z
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getYMax:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getAxisDependency:()Lcom/github/mikephil/charting/components/YAxis$AxisDependency;
+    Lcom/github/mikephil/charting/data/ChartData;.calcMinMax:(Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;)V
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getYMin:()F
+    Lcom/github/mikephil/charting/data/ChartData;.getFirstRight:(Ljava/util/List;)Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getYMax:()F
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getAxisDependency:()Lcom/github/mikephil/charting/components/YAxis$AxisDependency;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getYMin:()F
+    Lcom/github/mikephil/charting/data/ChartData;.getFirstLeft:(Ljava/util/List;)Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;
+
+Ltrilog/example/martin/myapplication/Controllers/LabelsFormater;.<init>:([Ljava/lang/String;)V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/utils/Utils;.getLineHeight:(Landroid/graphics/Paint;Landroid/graphics/Paint$FontMetrics;)F
+    Landroid/graphics/Paint;.getFontMetrics:(Landroid/graphics/Paint$FontMetrics;)F
+
+Lcom/github/mikephil/charting/utils/ObjectPool;.recycle:(Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;)V
+    Ljava/lang/IllegalArgumentException;.<init>:(Ljava/lang/String;)V
+    Ljava/lang/StringBuilder;.<init>:()V
+    Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;
+    Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    Lcom/github/mikephil/charting/utils/ObjectPool;.resizePool:()V
+    Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;
+
+Lcom/github/mikephil/charting/data/PieEntry;.getX:()F
+    Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/data/Entry;.getX:()F
+
+Ltrilog/example/martin/myapplication/Sports/DeleteData;.initializeToolbar:()V
+    Landroid/app/Activity;.findViewById:(I)Landroid/view/View;
+    Landroid/support/v7/app/ActionBar?;.setDisplayShowHomeEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.getSupportActionBar:()Landroid/support/v7/app/ActionBar;
+    Landroid/support/v7/app/ActionBar?;.setDisplayHomeAsUpEnabled:(Z)V
+    Landroid/support/v7/app/AppCompatActivity;.setSupportActionBar:(Landroid/support/v7/widget/Toolbar;)V
+
+Lcom/github/mikephil/charting/utils/Utils;.getSizeOfRotatedRectangleByRadians:(FFF)Lcom/github/mikephil/charting/utils/FSize;
+    Lcom/github/mikephil/charting/utils/FSize;.getInstance:(FF)Lcom/github/mikephil/charting/utils/FSize;
+    Ljava/lang/Math;.cos:(D)D
+    Ljava/lang/Math;.abs:(F)F
+    Ljava/lang/Math;.sin:(D)D
+
+Lcom/github/mikephil/charting/data/ChartData;.getMaxEntryCountSet:()Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;
+    Ljava/util/Iterator?;.hasNext:()Z
+    Ljava/util/ArrayList;.isEmpty:()Z
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getEntryCount:()I
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getEntryCount:()I
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/components/AxisBase;.setAxisMinValue:(F)V
+    Lcom/github/mikephil/charting/components/AxisBase;.setAxisMinimum:(F)V
+
+Lcom/github/mikephil/charting/utils/Transformer;.getValuesByTouchPoint:(FF)Lcom/github/mikephil/charting/utils/MPPointD;
+    Lcom/github/mikephil/charting/utils/Transformer;.getValuesByTouchPoint:(FFLcom/github/mikephil/charting/utils/MPPointD;)V
+    Lcom/github/mikephil/charting/utils/MPPointD;.getInstance:(DD)Lcom/github/mikephil/charting/utils/MPPointD;
+
+Lcom/github/mikephil/charting/data/ChartData;.getDataSetByIndex:(I)Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;
+    Ljava/util/ArrayList;.size:()I
+    Ljava/util/ArrayList;.get:(I)Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/utils/Utils;.getDecimals:(F)I
+    Ljava/lang/Math;.ceil:(D)D
+    Ljava/lang/Float;.isInfinite:(F)Z
+    Lcom/github/mikephil/charting/utils/Utils;.roundToNextSignificant:(D)F
+    Ljava/lang/Math;.log10:(D)D
+
+Lcom/github/mikephil/charting/charts/BarLineChartBase;.notifyDataSetChanged:()V
+    Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.calculateOffsets:()V
+    Lcom/github/mikephil/charting/charts/BarChart;.calcMinMax:()V
+    Lcom/github/mikephil/charting/renderer/DataRenderer?;.initBuffers:()V
+    Lcom/github/mikephil/charting/renderer/AxisRenderer;.computeAxis:(FFZ)V
+    Lcom/github/mikephil/charting/renderer/LegendRenderer;.computeLegend:(Lcom/github/mikephil/charting/data/ChartData;)V
+    Lcom/github/mikephil/charting/renderer/XAxisRenderer;.computeAxis:(FFZ)V
+    Lcom/github/mikephil/charting/components/YAxis;.isInverted:()Z
+
+Ltrilog/example/martin/myapplication/Controllers/MyBarChart;.prepareXAxis:([Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/components/XAxis;.setPosition:(Lcom/github/mikephil/charting/components/XAxis$XAxisPosition;)V
+    Lcom/github/mikephil/charting/charts/Chart;.getXAxis:()Lcom/github/mikephil/charting/components/XAxis;
+    Lcom/github/mikephil/charting/components/AxisBase;.setValueFormatter:(Lcom/github/mikephil/charting/formatter/IAxisValueFormatter;)V
+    Ltrilog/example/martin/myapplication/Controllers/LabelsFormater;.<init>:([Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/components/AxisBase;.setGranularity:(F)V
+
+Lcom/github/mikephil/charting/components/AxisBase;.<init>:()V
+    Lcom/github/mikephil/charting/components/ComponentBase;.<init>:()V
+    Lcom/github/mikephil/charting/utils/Utils;.convertDpToPixel:(F)F
+    Ljava/util/ArrayList;.<init>:()V
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeaderBoxParams:(Landroid/widget/RelativeLayout;)V
+    Landroid/view/View;.setBackgroundDrawable:(Landroid/graphics/drawable/Drawable;)V
+    Landroid/view/ContextThemeWrapper;.getResources:()Landroid/content/res/Resources;
+    Ltrilog/example/martin/myapplication/Controllers/ViewController;.setHeader:(Landroid/widget/RelativeLayout;)V
+    Landroid/content/res/Resources;.getDrawable:(I)Landroid/graphics/drawable/Drawable;
+    Landroid/content/ContextWrapper;.getResources:()Landroid/content/res/Resources;
+
+Ltrilog/example/martin/myapplication/Database/Database;.getSport:(J)Ltrilog/example/martin/myapplication/Objects/Sport;
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Landroid/database/Cursor?;.getInt:(I)I
+    Landroid/database/Cursor?;.getString:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Ltrilog/example/martin/myapplication/Objects/Sport;.<init>:(ILjava/lang/String;Ljava/lang/String;)V
+    Ljava/lang/String;.valueOf:(J)Ljava/lang/String;
+    Landroid/database/Cursor?;.moveToFirst:()Z
+
+Ltrilog/example/martin/myapplication/Database/Database;.getAttributesData:(I)Ljava/util/ArrayList;
+    Ljava/util/ArrayList;.<init>:()V
+    Ltrilog/example/martin/myapplication/Objects/AttributeData;.<init>:(Ljava/lang/String;FI)V
+    Landroid/database/Cursor?;.getColumnIndex:(Ljava/lang/String;)I
+    Landroid/database/sqlite/SQLiteDatabase;.rawQuery:(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    Landroid/database/Cursor?;.moveToNext:()Z
+    Landroid/database/Cursor?;.getInt:(I)I
+    Landroid/database/sqlite/SQLiteClosable;.close:()V
+    Ltrilog/example/martin/myapplication/Database/Database;.getAttributeName:(I)Ljava/lang/String;
+    Landroid/database/sqlite/SQLiteOpenHelper;.getReadableDatabase:()Landroid/database/sqlite/SQLiteDatabase;
+    Ljava/lang/String;.valueOf:(I)Ljava/lang/String;
+    Landroid/database/Cursor?;.isAfterLast:()Z
+    Landroid/database/Cursor?;.getFloat:(I)F
+    Ljava/util/ArrayList;.add:(Ljava/lang/Object;)Z
+    Landroid/database/Cursor?;.moveToFirst:()Z
+
+Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;.<init>:()V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/utils/Utils;.calcTextWidth:(Landroid/graphics/Paint;Ljava/lang/String;)I
+    Landroid/graphics/Paint;.measureText:(Ljava/lang/String;)F
+
+Ltrilog/example/martin/myapplication/Objects/MyTime;.<init>:(I)V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/data/ChartData;.getFirstLeft:(Ljava/util/List;)Lcom/github/mikephil/charting/interfaces/datasets/IDataSet;
+    Ljava/util/Iterator?;.hasNext:()Z
+    Lcom/github/mikephil/charting/interfaces/datasets/IPieDataSet?;.getAxisDependency:()Lcom/github/mikephil/charting/components/YAxis$AxisDependency;
+    Ljava/util/ArrayList;.iterator:()Ljava/util/Iterator;
+    Lcom/github/mikephil/charting/interfaces/datasets/IDataSet?;.getAxisDependency:()Lcom/github/mikephil/charting/components/YAxis$AxisDependency;
+    Ljava/util/Iterator?;.next:()Ljava/lang/Object;
+
+Lcom/github/mikephil/charting/utils/ObjectPool;.get:()Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;
+    Lcom/github/mikephil/charting/utils/ObjectPool;.refillPool:()V
+
+Lcom/github/mikephil/charting/utils/FSize;.<init>:(FF)V
+    Lcom/github/mikephil/charting/utils/ObjectPool$Poolable;.<init>:()V
+
+Lcom/github/mikephil/charting/charts/BarChart;.groupBars:(FFF)V
+    Lcom/github/mikephil/charting/charts/BarChart;.getBarData:()Lcom/github/mikephil/charting/data/BarData;
+    Lcom/github/mikephil/charting/charts/BarLineChartBase;.notifyDataSetChanged:()V
+    Ljava/lang/RuntimeException;.<init>:(Ljava/lang/String;)V
+    Lcom/github/mikephil/charting/data/BarData;.groupBars:(FFF)V
+
+Ltrilog/example/martin/myapplication/Sports/DetailSport;.initiliazeRecordsofSports:(Z)V
+    Ltrilog/example/martin/myapplication/Database/Database;.getDataLastWeek:(I)Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Objects/Sport;.getId:()I
+    Ltrilog/example/martin/myapplication/Database/Database;.getDataByDateRange:(ILjava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
+    Ltrilog/example/martin/myapplication/Database/Database;.getDataLastMonth:(I)Ljava/util/ArrayList;
+    Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String;
+    Landroid/app/Activity;.getIntent:()Landroid/content/Intent;
+    Ltrilog/example/martin/myapplication/Database/Database;.getDataLastYear:(I)Ljava/util/ArrayList;
+    Ljava/lang/String;.equals:(Ljava/lang/Object;)Z
+
+Lcom/github/mikephil/charting/data/LineDataSet;.resetCircleColors:()V
+    Ljava/util/ArrayList;.<init>:()V
+    Ljava/util/ArrayList;.clear:()V
+
+Ltrilog/example/martin/myapplication/Controllers/ViewController;.createDivider:()Landroid/view/View;
+    Landroid/view/View;.setPadding:(IIII)V
+    Landroid/view/ViewGroup$MarginLayoutParams;.setMargins:(IIII)V
+    Landroid/widget/LinearLayout$LayoutParams;.<init>:(II)V
+    Landroid/graphics/Color;.parseColor:(Ljava/lang/String;)I
+    Landroid/view/View;.setLayoutParams:(Landroid/view/ViewGroup$LayoutParams;)V
+    Landroid/widget/ImageView;.<init>:(Landroid/content/Context;)V
+    Landroid/view/View;.setBackgroundColor:(I)V
+
+Lcom/github/mikephil/charting/formatter/DefaultFillFormatter;.<init>:()V
+    Ljava/lang/Object;.<init>:()V
+
+Lcom/github/mikephil/charting/components/AxisBase;.setAxisMaximum:(F)V
+    Ljava/lang/Math;.abs:(F)F
